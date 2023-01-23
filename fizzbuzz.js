@@ -1,4 +1,4 @@
-export function fizzBuzz(number){
+export default function fizzBuzz(number){
   let resultString = ''
 
   if (number >= 0) {

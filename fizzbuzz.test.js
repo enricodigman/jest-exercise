@@ -1,5 +1,5 @@
 import { expect, test } from '@jest/globals'
-import { fizzBuzz } from './fizzbuzz.js'
+import fizzBuzz from './fizzbuzz.js'
 
 describe('FizzBuzz Tests', () => {
   test('returns error for not a positive integer', () => {
