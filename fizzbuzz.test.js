@@ -5,6 +5,7 @@ describe('FizzBuzz Tests', () => {
   test('returns error for not a positive integer', () => {
     expect(() => fizzBuzz(-5)).toThrow('Accepts only postive integer')
     expect(() => fizzBuzz(0.3)).toThrow('Accepts only postive integer')
+    expect(() => fizzBuzz('hello')).toThrow('Accepts only postive integer')
   })
 
   test('returns " " if number not divisible by 3 and 5', () => {
